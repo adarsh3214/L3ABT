@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links{
+    flex: l;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: rgb(5, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.text-box h1{
+    font-size: 60px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: rgb(14, 1, 1);
+}
+
+.first-bt{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 12px 50px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.first-bt:hover{
+    border: 1px solid black;
+    background: #f44336;
+    transition: 00.5s;
+}
+
+/*----service------*/
+
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    color:black;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:border-box ;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.service-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------Facility*/
+.facility{
+ 
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.facility h1{
+    text-align: center;
+    font-size: 100;
+}
+
+.facility-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.facility-col h3{
+    text-align: center;
+}
+.facility-col img{
+    margin: auto;
+    display: block;
+    padding-left: 20%;
+    
+}
+
+
+
+/*------Projects---------*/
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.projects-col{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/*------benefits---------*/
+.benefits{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.benefits-col{
+    text-align: left;
+}
+
+/*----------testimonials----------*/
+.testimonials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.testimonials-col img{
+    height: 100px;
+    width: 100px;
+}
+
+.testimonials-col{
+    text-align: left;
+}
+.testimonials-col .fa{
+    color: #f44336;
+}
+.testimonials-col .fa-solid{
+    color: #f44336;
+}
+
+/*----------------Connected----------------------*/
+.connections h1{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/peace.jpg);
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto; /*--------------image center ma ayo-----------*/
+    color:#fff;
+    padding: 100px 0; /*-----------------Image lai thulo banayo mathi ra tala---------------*/
+    
+}
+
+.links ul li{
+    text-align: center;
+}
+
+/*--------------contact----------------*/
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/retreat.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/*------------fotter---------------*/
+
+.about{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.about h3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons ul li{
+    display: inline-block;
+
+}
+
+/*--------------formaction------------*/
+.form{
+    text-align:center;
+    box-sizing:border-box;
+    width: 320px;
+    background-color: antiquewhite;
+    padding: 40px 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+fieldset{
+    background: rgb(124, 211, 238);
+    width: fit-content;
+    align-content: center;
+}
+
+.form-1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.form-header h2{
+    text-align: center;
+    padding-left: 30px;
+}

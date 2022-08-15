@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------------------------css ko link-------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------ google font ko link------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+
+    <title>Form</title>
+
+</head>
+
+<body> 
+    <section class="form-1">
+        <nav>
+       
+            <a href="index.html"><img src="Images/logo.jpg"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="final assignment.html">HOME</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="facility.html">Facility</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+         </nav>
+
+         <div class="form-header">
+            <fieldset>
+                        <h2><b>Membership Form</b></h2> 
+                    <table>
+                    <form action="Final assignment.html" method="get" enctype="multipart/form-data">
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                            </td>
+                            <td><input type="text" name="Name" id="Name" placeholder="username" required>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="Email">Email</label>
+                            </td>
+                            <td><input type="email" name="Email" placeholder="someone@gmail.com" required>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td><label for="age">Age</label>
+                            </td>
+                            <td><input type="number" name="Age" min="10" max="150" step="1">
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td><label for="Number">Phone Number</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="Number" placeholder="9807654321" required>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td><label">Date of submission</label>
+                            </td>
+                            <td>
+                                <input type="date" name="Date" >
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label>Facilities You Want:</label></td>
+                                <td>
+                                    <input type="checkbox" name="chk Gym" value="Gym"> Gym <br>
+                                    <input type="checkbox" name="chk Yoga" value="Yoga"> Yoga <br>
+                                    <input type="checkbox" name="chk Tennis" value="Tennis"> Tennis <br>
+                                    <input type="checkbox" name="chk Swimming" value="Swimming"> Swimming <br>
+                                </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="gender">Choose Your Gender:</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male"> Male <br>
+                                <input type="radio" id="female" name="gender" value="female"> Female <br>
+                                <input type="radio" id="other" name="gender" value="other"> Other <br><br>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td><label>Blood Group</label></td>
+                            <td>
+                                <select name="Blood group">
+                                    <option value="O+">O+</option>
+                                    <option label="O-" Value="O-">O-</option>
+                                    <option label="A+" value="A+">A+</option>
+                                    <option label="A-" value="A-">A-</option> 
+                                </select>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="name">Why do you want to join us?</label>
+                                
+                            </td>
+                            <td>
+                                <TEXTAREA COLS=40 ROWS=5 Name="comments" placeholder="Reason for joining"></TEXTAREA>
+                            </td>
+                            
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="name">Password</label>
+                            </td>
+                            <td><input type="text" placeholder="Enter password" required>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="name">Confirm Password</label>
+                            </td>
+                            <td><input type="text" placeholder="Enter same password" required>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="clear">
+                            </td>
+                        </tr>
+            
+                    </form>
+                </table>
+            </fieldset>
+            
+        
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.zapp{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Images/dreamy.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.mz{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: l;
+    text-align: right;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.container h1.white, .company-heading h1 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.control-group {
+  margin-bottom: 15px;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.white {
+    color: black;
+}
+.container p {
+    font-style: normal !important;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.theme-selector {
+  display: none;
+}
+.contact-page-form h3 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.parallax {
+    background-attachment: inherit !important;
+}
+.parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+    height: 300px
+}
+h3 {
+    font-size: 20px;
+    margin: 35px 0px 25px;
+    font-weight: 800;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+.col-md-5 contact-right-info{
+    text-align: center;
+}
+
+.map-overlay h3 {
+    color: #fff;
+    border-bottom: 2px solid #d2282e;
+    padding-bottom: 15px;
+}
+
+.map-overlay {
+    background: #000;
+    -webkit-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    width: 500px;
+    height: 320px;
+    position: relative;
+    float: left;
+    z-index: 300;
+    left: 0px;
+    top: 675px;
+    padding: 25px;
+    margin-top: -550px;
+    border: 3px solid #fff;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px;
+}
+
+.map-overlay p {
+    color: #fff;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+.contact-right-info {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-right-info {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-right-info {
+    text-align: left;
+  }
+  .map-overlay {
+    left: 0px;
+  }
+}
